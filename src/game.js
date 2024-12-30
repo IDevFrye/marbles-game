@@ -29,7 +29,7 @@
     const minCeiled = Math.ceil(min);
     const maxFloored = Math.floor(max);
 
-    return Number(Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled));
+    return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled);
   };
 
   const normalizeInput = (input) => {
